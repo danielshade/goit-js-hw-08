@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1440px;
+  height: 696px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+/* Стилі для ul та li */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+/* Стилі для зображень */
+.gallery-image {
+  border: 1px solid #000;
+  width: 360px;
+  height: 200px;
+  display: block;
+  background: url("path_to_image");
+}
+
+/* Стилі для посилання */
+.gallery-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
